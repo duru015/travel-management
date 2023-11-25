@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_trips",
+  "info": {
+    "singularName": "book-trip",
+    "pluralName": "book-trips",
+    "displayName": "Book Trip",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "trip": {
+      "type": "string"
+    }
+  }
+}
